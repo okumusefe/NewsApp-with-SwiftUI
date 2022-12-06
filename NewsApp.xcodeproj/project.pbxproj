@@ -14,6 +14,8 @@
 		8AAF93DB293F5A6300C5F0FD /* NewsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF93D9293F5A6300C5F0FD /* NewsApp.xcdatamodeld */; };
 		8AAF93DD293F5A6400C5F0FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF93DC293F5A6400C5F0FD /* Assets.xcassets */; };
 		8AAF93E0293F5A6400C5F0FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AAF93DE293F5A6400C5F0FD /* LaunchScreen.storyboard */; };
+		8AAF93E8293F611000C5F0FD /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAF93E7293F611000C5F0FD /* APICaller.swift */; };
+		8AC94F02293FE38800CA340E /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC94F01293FE38800CA340E /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8AAF93DC293F5A6400C5F0FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AAF93DF293F5A6400C5F0FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AAF93E1293F5A6400C5F0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AAF93E7293F611000C5F0FD /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		8AC94F01293FE38800CA340E /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				8AAF93DE293F5A6400C5F0FD /* LaunchScreen.storyboard */,
 				8AAF93E1293F5A6400C5F0FD /* Info.plist */,
 				8AAF93D9293F5A6300C5F0FD /* NewsApp.xcdatamodeld */,
+				8AAF93E7293F611000C5F0FD /* APICaller.swift */,
+				8AC94F01293FE38800CA340E /* NewsTableViewCell.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -143,7 +149,9 @@
 			files = (
 				8AAF93D5293F5A6300C5F0FD /* ViewController.swift in Sources */,
 				8AAF93D1293F5A6300C5F0FD /* AppDelegate.swift in Sources */,
+				8AC94F02293FE38800CA340E /* NewsTableViewCell.swift in Sources */,
 				8AAF93DB293F5A6300C5F0FD /* NewsApp.xcdatamodeld in Sources */,
+				8AAF93E8293F611000C5F0FD /* APICaller.swift in Sources */,
 				8AAF93D3293F5A6300C5F0FD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
